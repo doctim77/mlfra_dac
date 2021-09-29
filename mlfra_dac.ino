@@ -143,7 +143,7 @@ void setup() {
 
         if(debug){
           Serial.print(linear_M, 8);
-          Serial.print(" ");
+          Serial.print(",");
           Serial.println(linear_B, 8);
         }
       }
